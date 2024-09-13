@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:">
+      location = "self:/Users/cooper/Projects/personal/genlauncher/lazylauncher.xcodeproj">
    </FileRef>
 </Workspace>

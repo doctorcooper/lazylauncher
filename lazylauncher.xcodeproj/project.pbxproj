@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E15AE002C53AD9400661524 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E15ADFF2C53AD9400661524 /* Repository.swift */; };
+		1E28B1DC2C7C7A3700F9B1D8 /* SettingsItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E28B1DB2C7C7A3700F9B1D8 /* SettingsItemViewModel.swift */; };
+		1E28B1DF2C7C803300F9B1D8 /* LogsViewerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E28B1DE2C7C803300F9B1D8 /* LogsViewerView.swift */; };
+		1E28B1E12C7C8CDD00F9B1D8 /* InternalLogService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E28B1E02C7C8CDD00F9B1D8 /* InternalLogService.swift */; };
+		1E9B001F2C7C9123004796F5 /* WindowOpener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9B001E2C7C9123004796F5 /* WindowOpener.swift */; };
+		1EB281D12C46A5F700FD03B8 /* lazylauncherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB281D02C46A5F700FD03B8 /* lazylauncherApp.swift */; };
+		1EB281E02C46B07E00FD03B8 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB281DF2C46B07E00FD03B8 /* Menu.swift */; };
+		1EB8592A2C492F2800540D01 /* View+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB859292C492F2800540D01 /* View+Ext.swift */; };
+		1EB8592C2C492F4900540D01 /* ProcessLauncher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB8592B2C492F4900540D01 /* ProcessLauncher.swift */; };
+		1EB8592E2C49564500540D01 /* ProcessModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB8592D2C49564500540D01 /* ProcessModel.swift */; };
+		1EB859302C49566B00540D01 /* ShellType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB8592F2C49566B00540D01 /* ShellType.swift */; };
+		1EB859342C4961DF00540D01 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB859332C4961DF00540D01 /* Log.swift */; };
+		1EB859362C5116C700540D01 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB859352C5116C700540D01 /* SettingsView.swift */; };
+		1EB859382C512B8000540D01 /* SettingsItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB859372C512B8000540D01 /* SettingsItemView.swift */; };
+		1EB8593A2C51490000540D01 /* Closure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB859392C51490000540D01 /* Closure.swift */; };
+		1EC4564C2C47C0B400E039B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EC4564B2C47C0B400E039B0 /* Assets.xcassets */; };
+		1EEF38242C78A53F0065D786 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEF38232C78A53F0065D786 /* NotificationManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1E15ADFF2C53AD9400661524 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		1E28B1DB2C7C7A3700F9B1D8 /* SettingsItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsItemViewModel.swift; sourceTree = "<group>"; };
+		1E28B1DE2C7C803300F9B1D8 /* LogsViewerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogsViewerView.swift; sourceTree = "<group>"; };
+		1E28B1E02C7C8CDD00F9B1D8 /* InternalLogService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternalLogService.swift; sourceTree = "<group>"; };
+		1E28B1E22C7C90BD00F9B1D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		1E9B001E2C7C9123004796F5 /* WindowOpener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowOpener.swift; sourceTree = "<group>"; };
+		1EB281CD2C46A5F700FD03B8 /* lazylauncher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lazylauncher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EB281D02C46A5F700FD03B8 /* lazylauncherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lazylauncherApp.swift; sourceTree = "<group>"; };
+		1EB281D92C46A5F800FD03B8 /* lazylauncher.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = lazylauncher.entitlements; sourceTree = "<group>"; };
+		1EB281DF2C46B07E00FD03B8 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		1EB859292C492F2800540D01 /* View+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Ext.swift"; sourceTree = "<group>"; };
+		1EB8592B2C492F4900540D01 /* ProcessLauncher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessLauncher.swift; sourceTree = "<group>"; };
+		1EB8592D2C49564500540D01 /* ProcessModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessModel.swift; sourceTree = "<group>"; };
+		1EB8592F2C49566B00540D01 /* ShellType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShellType.swift; sourceTree = "<group>"; };
+		1EB859332C4961DF00540D01 /* Log.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
+		1EB859352C5116C700540D01 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		1EB859372C512B8000540D01 /* SettingsItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsItemView.swift; sourceTree = "<group>"; };
+		1EB859392C51490000540D01 /* Closure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Closure.swift; sourceTree = "<group>"; };
+		1EC4564B2C47C0B400E039B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1EEF38232C78A53F0065D786 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1EB281CA2C46A5F700FD03B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E28B1DD2C7C7AEA00F9B1D8 /* SettingsItemView */ = {
+			isa = PBXGroup;
+			children = (
+				1EB859372C512B8000540D01 /* SettingsItemView.swift */,
+				1E28B1DB2C7C7A3700F9B1D8 /* SettingsItemViewModel.swift */,
+			);
+			path = SettingsItemView;
+			sourceTree = "<group>";
+		};
+		1EB281C42C46A5F700FD03B8 = {
+			isa = PBXGroup;
+			children = (
+				1EB281CF2C46A5F700FD03B8 /* lazylauncher */,
+				1EB281CE2C46A5F700FD03B8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1EB281CE2C46A5F700FD03B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1EB281CD2C46A5F700FD03B8 /* lazylauncher.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1EB281CF2C46A5F700FD03B8 /* lazylauncher */ = {
+			isa = PBXGroup;
+			children = (
+				1E28B1E22C7C90BD00F9B1D8 /* Info.plist */,
+				1EB859282C492F1800540D01 /* Views */,
+				1EB859272C492F0E00540D01 /* Utils */,
+				1EB859262C492F0200540D01 /* Models */,
+				1EB281D02C46A5F700FD03B8 /* lazylauncherApp.swift */,
+				1EB281D92C46A5F800FD03B8 /* lazylauncher.entitlements */,
+				1EC4564B2C47C0B400E039B0 /* Assets.xcassets */,
+			);
+			path = lazylauncher;
+			sourceTree = "<group>";
+		};
+		1EB859262C492F0200540D01 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1EB8592D2C49564500540D01 /* ProcessModel.swift */,
+				1EB8592F2C49566B00540D01 /* ShellType.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1EB859272C492F0E00540D01 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				1EB859292C492F2800540D01 /* View+Ext.swift */,
+				1E9B001E2C7C9123004796F5 /* WindowOpener.swift */,
+				1EB8592B2C492F4900540D01 /* ProcessLauncher.swift */,
+				1EEF38232C78A53F0065D786 /* NotificationManager.swift */,
+				1EB859332C4961DF00540D01 /* Log.swift */,
+				1E28B1E02C7C8CDD00F9B1D8 /* InternalLogService.swift */,
+				1EB859392C51490000540D01 /* Closure.swift */,
+				1E15ADFF2C53AD9400661524 /* Repository.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		1EB859282C492F1800540D01 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1EB281DF2C46B07E00FD03B8 /* Menu.swift */,
+				1EB859352C5116C700540D01 /* SettingsView.swift */,
+				1E28B1DD2C7C7AEA00F9B1D8 /* SettingsItemView */,
+				1E28B1DE2C7C803300F9B1D8 /* LogsViewerView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1EB281CC2C46A5F700FD03B8 /* lazylauncher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EB281DC2C46A5F800FD03B8 /* Build configuration list for PBXNativeTarget "lazylauncher" */;
+			buildPhases = (
+				1EB281C92C46A5F700FD03B8 /* Sources */,
+				1EB281CA2C46A5F700FD03B8 /* Frameworks */,
+				1EB281CB2C46A5F700FD03B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lazylauncher;
+			productName = genlauncher;
+			productReference = 1EB281CD2C46A5F700FD03B8 /* lazylauncher.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1EB281C52C46A5F700FD03B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					1EB281CC2C46A5F700FD03B8 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 1EB281C82C46A5F700FD03B8 /* Build configuration list for PBXProject "lazylauncher" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1EB281C42C46A5F700FD03B8;
+			productRefGroup = 1EB281CE2C46A5F700FD03B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1EB281CC2C46A5F700FD03B8 /* lazylauncher */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1EB281CB2C46A5F700FD03B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EC4564C2C47C0B400E039B0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1EB281C92C46A5F700FD03B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EB281E02C46B07E00FD03B8 /* Menu.swift in Sources */,
+				1EB8592C2C492F4900540D01 /* ProcessLauncher.swift in Sources */,
+				1E28B1DC2C7C7A3700F9B1D8 /* SettingsItemViewModel.swift in Sources */,
+				1EB281D12C46A5F700FD03B8 /* lazylauncherApp.swift in Sources */,
+				1EB859362C5116C700540D01 /* SettingsView.swift in Sources */,
+				1EB8592A2C492F2800540D01 /* View+Ext.swift in Sources */,
+				1EB859302C49566B00540D01 /* ShellType.swift in Sources */,
+				1EEF38242C78A53F0065D786 /* NotificationManager.swift in Sources */,
+				1EB8593A2C51490000540D01 /* Closure.swift in Sources */,
+				1EB859382C512B8000540D01 /* SettingsItemView.swift in Sources */,
+				1E28B1DF2C7C803300F9B1D8 /* LogsViewerView.swift in Sources */,
+				1EB859342C4961DF00540D01 /* Log.swift in Sources */,
+				1EB8592E2C49564500540D01 /* ProcessModel.swift in Sources */,
+				1E15AE002C53AD9400661524 /* Repository.swift in Sources */,
+				1E9B001F2C7C9123004796F5 /* WindowOpener.swift in Sources */,
+				1E28B1E12C7C8CDD00F9B1D8 /* InternalLogService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1EB281DA2C46A5F800FD03B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1EB281DB2C46A5F800FD03B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		1EB281DD2C46A5F800FD03B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = lazylauncher/lazylauncher.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = G8282D8KRH;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = lazylauncher/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Lazy Launcher";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dimacooper.lazylauncher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		1EB281DE2C46A5F800FD03B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = lazylauncher/lazylauncher.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = G8282D8KRH;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = lazylauncher/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Lazy Launcher";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dimacooper.lazylauncher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1EB281C82C46A5F700FD03B8 /* Build configuration list for PBXProject "lazylauncher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EB281DA2C46A5F800FD03B8 /* Debug */,
+				1EB281DB2C46A5F800FD03B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EB281DC2C46A5F800FD03B8 /* Build configuration list for PBXNativeTarget "lazylauncher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EB281DD2C46A5F800FD03B8 /* Debug */,
+				1EB281DE2C46A5F800FD03B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1EB281C52C46A5F700FD03B8 /* Project object */;
+}
