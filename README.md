@@ -1,5 +1,7 @@
 # lazylauncher
 
+![Logo](images/logo.png)
+
 This small tool provides an easy and lazy way to launch any CLI tools for MacOSX via a few mouse clicks.
 
 ## About
@@ -26,6 +28,8 @@ and `make project` command from Makefile which includes generate the project and
 - Close the Settings
 
 Now in the dropdown menu, you will see the just created command. If you granted push notification on launch, when you launch the command you should see a notification that represents your result.
+![ex1](images/ex1.png)
+![ex2](images/ex2.png)
 
 ## Features
 
